@@ -1,0 +1,14 @@
+# Robots.txt para Tá na Hora!
+# https://iqr2xk2xig27m.mocha.app
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://iqr2xk2xig27m.mocha.app/sitemap.xml
+
+# Bloquear páginas de checkout e retorno de pagamento
+Disallow: /checkout
+Disallow: /success
+Disallow: /failure
+Disallow: /pending
