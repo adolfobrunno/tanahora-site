@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="refresh"
+      content="0;url=/tanahora-site/?redirect=1"
+    />
+    <meta name="robots" content="noindex" />
+    <title>Redirecionando...</title>
+    <script>
+      (function () {
+        var base = "/tanahora-site/";
+        var path = window.location.pathname.replace(base, "");
+        var search = window.location.search;
+        var hash = window.location.hash;
+        var target = base + "?path=" + encodeURIComponent(path + search + hash);
+        window.location.replace(target);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

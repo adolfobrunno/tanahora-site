@@ -8,3 +8,12 @@ To run the devserver:
 npm install
 npm run dev
 ```
+
+## GitHub Pages
+
+Build:
+```
+npm run build
+```
+
+In GitHub, configure Pages to deploy from the `dist` folder (branch or Actions-based).
