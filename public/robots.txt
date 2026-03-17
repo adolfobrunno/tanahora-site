@@ -1,11 +1,11 @@
 # Robots.txt para Tá na Hora!
-# https://adolfobrunno.github.io/tanahora-site/
+# https://www.tanahora.app/
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://adolfobrunno.github.io/tanahora-site/sitemap.xml
+Sitemap: https://www.tanahora.app/sitemap.xml
 
 # Bloquear páginas de checkout e retorno de pagamento
 Disallow: /checkout
